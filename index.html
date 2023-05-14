@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Basket</title>
+  </head>
+  <body>
+    <div class="header">
+      <button class="btn1">Cart( <span class="cardcount">0</span> )</button>
+      <button class="btn2">Clear Cart</button>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+
+      </div> 
+
+      
+    <!--MODAL-->
+    <div class="modal-bg">
+      <div class="modal">
+        <div class="modal_header">
+          <p>Cart</p>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <div class="modal_values">
+        </div>
+
+        <div class="total_price">
+          Total price: <span class="total_price_values"> </span>
+        </div>
+        <div class="modal_footer">
+          <div class="closeBtn">Close</div>
+          <div class="orderBtn">Order now</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

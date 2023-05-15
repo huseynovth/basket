@@ -46,7 +46,7 @@ function initApp()
     newDiv.classList.add("card");
     newDiv.innerHTML=
     `
-    <img src="image/${value.image}">
+    <img src="./${value.image}">
     <div class="title">${value.name}</div>
     <div class="price">${value.price}$</div>
     <button onclick="addToCard(${key})"> Add To Card </button>
